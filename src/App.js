@@ -13,7 +13,7 @@ function App() {
           <Route path="/jobs" element={<JOBS />} />
         </Routes>
 
-        <h1>app</h1>
+        
       </div>
     </Router>
   );

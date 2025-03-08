@@ -1,5 +1,51 @@
-ul{
+.navbar-nav {
   list-style-type: none;
+  margin: 0vh;
+  paddinng:0vh;
+  overflow: hidden;
+ /* background-color: aqua;*/
+}
+.navbar-nav li{
+float: left;
+block-size: 3vh;
+color: rgb(0, 0, 0);
+text-align: center;
+padding: 3vh 3vw;
+text-decoration: none;
+}
+.navbar-nav li:hover{
+  
+  background-color: rgb(0, 174, 255);
+  }
+  Link:hover{
+    color: aliceblue;
+  }
+  .introduction {
+    display: flex;
+    justify-content: space-between; /* Ensure space between items */
+    padding: 20px; /* Add padding to the entire container */
+  }
+  
+  .aboutMe {
+    margin-right: 80px; /* Space between .aboutMe and .MyIMG */
+  }
+  
+  .MyIMG {
+    margin-left: 80px; /* Space between .MyIMG and .aboutMe */
+  }
+  
+  .MyIMG img {
+    max-width: 70%; /* Ensure the image is responsive */
+    height: auto;
+  }
+  
+
+
+/* Responsive layout - makes a one column layout instead of a two-column layout */
+
+    
+/*ul{
+  
   margin: 0;
   padding: 0;
   overflow: hidden;
@@ -30,4 +76,4 @@ li :hover{
   background-color: #111;
   color: aliceblue;
 }
-
+*/
