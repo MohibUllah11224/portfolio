@@ -4,7 +4,7 @@ const Home = () => {
     return (  
         <div>
                     <Navbar />
-                    <div className="introduction">
+       <div className="introduction">
         <div className="aboutMe">
           <h1>About Me</h1>
           <h2>Hello I Am Mohib Ullah</h2>
@@ -17,7 +17,7 @@ const Home = () => {
           <img src={meImage} alt="My Pic" />
         </div>
       </div>
-
+/* thid is updated */ 
 
         </div>
 
